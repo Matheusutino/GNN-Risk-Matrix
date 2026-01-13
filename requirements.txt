@@ -1,0 +1,21 @@
+# Core ML/DL Libraries
+torch
+torch-geometric
+sentence-transformers
+scikit-learn
+
+# Graph Processing
+networkx
+numpy
+
+# Data Processing
+pandas
+nltk
+
+# Utilities
+tqdm
+ipython
+
+# Data Download Tools
+gdown
+wget
