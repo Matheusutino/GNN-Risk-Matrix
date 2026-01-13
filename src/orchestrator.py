@@ -52,6 +52,9 @@ class Orchestrator:
         print(f"Risk matrix saved to {risk_matrix_path}")
         print(risk_matrix.head())
 
+        print("\n--- Generating Risk Matrix Visualization ---")
+        rg.visualize_risk_matrix()
+
 
 if __name__ == '__main__':
     orchestrator = Orchestrator()
